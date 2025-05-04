@@ -27,7 +27,15 @@ module XPostSanitizer
   #
   # @see https://developer.x.com/en/docs/x-api/v1/tweets/post-and-engage/api-reference/get-statuses-show-id
   def self.expand_urls_text(status, text)
-    # TODO: Do after
+    urls = status.dig("entities", "urls")
+
+    return text unless urls
+
+    urls.reverse.each_with_object(text.dup) do |url, expanded|
+      pos1 = url.dig("indices", 0)
+      pos2 = url.dig("indices", 1)
+      expanded[pos1, pos2-pos1] = url["expanded_url"] if url["expanded_url"] && pos1 && pos2
+    end
   end
 
   # @param status [Hash] Response of `GET statuses/show/:id`
