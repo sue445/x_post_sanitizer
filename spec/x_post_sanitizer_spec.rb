@@ -56,8 +56,8 @@ RSpec.describe XPostSanitizer do
     end
   end
 
-  describe ".expand_urls_text" do
-    subject { XPostSanitizer.expand_urls_text(status, text) }
+  describe ".expand_urls_in_text" do
+    subject { XPostSanitizer.expand_urls_in_text(status, text) }
 
     using RSpec::Parameterized::TableSyntax
 

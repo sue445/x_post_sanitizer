@@ -26,7 +26,7 @@ module XPostSanitizer
   # @return [String]
   #
   # @see https://developer.x.com/en/docs/x-api/v1/tweets/post-and-engage/api-reference/get-statuses-show-id
-  def self.expand_urls_text(status, text)
+  def self.expand_urls_in_text(status, text)
     urls = status.dig("entities", "urls")
 
     return text unless urls
