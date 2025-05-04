@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 require "x_post_sanitizer"
+require "json"
+require "rspec/parameterized"
+
+Dir["#{__dir__}/support/**/*.rb"].each { |f| require f }
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
@@ -16,4 +20,11 @@ RSpec.configure do |config|
   config.define_derived_metadata do |meta|
     meta[:aggregate_failures] = true
   end
+
+  config.include FixtureUtil
+end
+
+# @return [Pathname]
+def spec_dir
+  Pathname(__dir__)
 end

@@ -1,0 +1,20 @@
+{
+  "id": 875239983488966656,
+  "text": "もういっちょテスト\nhttps://t.co/JBu8o4sXsp &lt;&gt;&lt;&gt;&lt;&gt;\"'\"'\"'\n&amp;quot;",
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/JBu8o4sXsp",
+        "expanded_url": "https://twitter.com/",
+        "display_url": "twitter.com",
+        "indices": [
+          10,
+          33
+        ]
+      }
+    ]
+  }
+}

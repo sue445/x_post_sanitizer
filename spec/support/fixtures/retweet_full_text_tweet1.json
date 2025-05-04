@@ -1,0 +1,108 @@
+{
+  "id": 897378954415194115,
+  "full_text": "RT @prcnaoj: 【今週の一枚】皆既日食をわかりやすく解説する動画ができました。太陽と月の「見かけの大きさ」がほぼ同じという偶然が織りなす皆既日食の感動を、美しい映像と音楽で味わってください https://t.co/8HoLEgK5Qp #国立天文台 https://…",
+  "truncated": false,
+  "entities": {
+    "hashtags": [
+      {
+        "text": "国立天文台",
+        "indices": [
+          124,
+          130
+        ]
+      }
+    ],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "prcnaoj",
+        "name": "国立天文台",
+        "id": 85759519,
+        "id_str": "85759519",
+        "indices": [
+          3,
+          11
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/8HoLEgK5Qp",
+        "expanded_url": "https://buff.ly/2w5HgaH",
+        "display_url": "buff.ly/2w5HgaH",
+        "indices": [
+          100,
+          123
+        ]
+      }
+    ]
+  },
+  "retweeted_status": {
+    "created_at": "Tue Aug 15 08:00:47 +0000 2017",
+    "id": 897367450672672768,
+    "full_text": "【今週の一枚】皆既日食をわかりやすく解説する動画ができました。太陽と月の「見かけの大きさ」がほぼ同じという偶然が織りなす皆既日食の感動を、美しい映像と音楽で味わってください https://t.co/8HoLEgK5Qp #国立天文台 https://t.co/slTg90RQMT",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "国立天文台",
+          "indices": [
+            111,
+            117
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/8HoLEgK5Qp",
+          "expanded_url": "https://buff.ly/2w5HgaH",
+          "display_url": "buff.ly/2w5HgaH",
+          "indices": [
+            87,
+            110
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 897367447925338113,
+          "id_str": "897367447925338113",
+          "indices": [
+            118,
+            141
+          ],
+          "media_url": "http://pbs.twimg.com/media/DHQW8H6WsAE05bd.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DHQW8H6WsAE05bd.jpg",
+          "url": "https://t.co/slTg90RQMT",
+          "display_url": "pic.twitter.com/slTg90RQMT",
+          "expanded_url": "https://twitter.com/prcnaoj/status/897367450672672768/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 768,
+              "h": 480,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 680,
+              "h": 425,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 768,
+              "h": 480,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

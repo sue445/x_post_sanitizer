@@ -1,6 +1,30 @@
 ---
 path: ".gem_rbs_collection"
 gems:
+- name: ast
+  version: '2.4'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: eb6867fdb70e82e3aac6b51623ed1b6760c3c072
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
+- name: binding_of_caller
+  version: '1.0'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: eb6867fdb70e82e3aac6b51623ed1b6760c3c072
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
+- name: cgi
+  version: '0'
+  source:
+    type: stdlib
+- name: dbm
+  version: '0'
+  source:
+    type: stdlib
 - name: diff-lcs
   version: '1.5'
   source:
@@ -17,11 +41,31 @@ gems:
   version: '0'
   source:
     type: stdlib
+- name: parser
+  version: '3.2'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: eb6867fdb70e82e3aac6b51623ed1b6760c3c072
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 - name: pp
   version: '0'
   source:
     type: stdlib
 - name: prettyprint
+  version: '0'
+  source:
+    type: stdlib
+- name: prism
+  version: 1.4.0
+  source:
+    type: rubygems
+- name: pstore
+  version: '0'
+  source:
+    type: stdlib
+- name: psych
   version: '0'
   source:
     type: stdlib
@@ -34,6 +78,22 @@ gems:
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: rdoc
+  version: '0'
+  source:
+    type: stdlib
+- name: rspec-parameterized-core
+  version: 2.0.0
+  source:
+    type: rubygems
+- name: rspec-parameterized-table_syntax
+  version: 2.0.0
+  source:
+    type: rubygems
+- name: stringio
+  version: '0'
+  source:
+    type: stdlib
+- name: tempfile
   version: '0'
   source:
     type: stdlib

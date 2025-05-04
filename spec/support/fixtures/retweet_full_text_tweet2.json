@@ -1,0 +1,308 @@
+{
+  "created_at": "Wed Aug 23 20:34:08 +0000 2017",
+  "id": 900456141557080065,
+  "id_str": "900456141557080065",
+  "full_text": "RT @GitHubEducation: Announcing two new GitHub Classroom features: Assignment Deadlines and Class Rosters: https://t.co/bNiJnlps5e https://…",
+  "truncated": false,
+  "display_text_range": [
+    0,
+    140
+  ],
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [
+      {
+        "screen_name": "GitHubEducation",
+        "name": "GitHub Education",
+        "id": 1943578656,
+        "id_str": "1943578656",
+        "indices": [
+          3,
+          19
+        ]
+      }
+    ],
+    "urls": [
+      {
+        "url": "https://t.co/bNiJnlps5e",
+        "expanded_url": "https://github.com/blog/2418-github-classroom-now-supports-deadlines-and-class-rosters",
+        "display_url": "github.com/blog/2418-gith…",
+        "indices": [
+          107,
+          130
+        ]
+      }
+    ]
+  },
+  "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+  "in_reply_to_status_id": null,
+  "in_reply_to_status_id_str": null,
+  "in_reply_to_user_id": null,
+  "in_reply_to_user_id_str": null,
+  "in_reply_to_screen_name": null,
+  "user": {
+    "id": 13334762,
+    "id_str": "13334762",
+    "name": "GitHub",
+    "screen_name": "github",
+    "location": "San Francisco, CA",
+    "description": "How people build software. \n\nNeed help? Send us a message at https://t.co/YU5nzbpDIg for support.",
+    "url": "https://t.co/FoKGHcCyJJ",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/FoKGHcCyJJ",
+            "expanded_url": "https://github.com",
+            "display_url": "github.com",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": [
+          {
+            "url": "https://t.co/YU5nzbpDIg",
+            "expanded_url": "http://git.io/c",
+            "display_url": "git.io/c",
+            "indices": [
+              61,
+              84
+            ]
+          }
+        ]
+      }
+    },
+    "protected": false,
+    "followers_count": 1619137,
+    "friends_count": 306,
+    "listed_count": 13570,
+    "created_at": "Mon Feb 11 04:41:50 +0000 2008",
+    "favourites_count": 570,
+    "utc_offset": -25200,
+    "time_zone": "Pacific Time (US & Canada)",
+    "geo_enabled": true,
+    "verified": true,
+    "statuses_count": 3611,
+    "lang": "en",
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "EEEEEE",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/4229589/header_bg.png",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/4229589/header_bg.png",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ_normal.png",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/616309728688238592/pBeeJQDQ_normal.png",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/13334762/1474493846",
+    "profile_link_color": "0000FF",
+    "profile_sidebar_border_color": "BBBBBB",
+    "profile_sidebar_fill_color": "DDDDDD",
+    "profile_text_color": "000000",
+    "profile_use_background_image": false,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": true,
+    "follow_request_sent": false,
+    "notifications": false,
+    "translator_type": "none"
+  },
+  "geo": null,
+  "coordinates": null,
+  "place": null,
+  "contributors": null,
+  "retweeted_status": {
+    "created_at": "Wed Aug 23 19:58:35 +0000 2017",
+    "id": 900447194884517888,
+    "id_str": "900447194884517888",
+    "full_text": "Announcing two new GitHub Classroom features: Assignment Deadlines and Class Rosters: https://t.co/bNiJnlps5e https://t.co/C02G05tUvu",
+    "truncated": false,
+    "display_text_range": [
+      0,
+      109
+    ],
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/bNiJnlps5e",
+          "expanded_url": "https://github.com/blog/2418-github-classroom-now-supports-deadlines-and-class-rosters",
+          "display_url": "github.com/blog/2418-gith…",
+          "indices": [
+            86,
+            109
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 900447192258928642,
+          "id_str": "900447192258928642",
+          "indices": [
+            110,
+            133
+          ],
+          "media_url": "http://pbs.twimg.com/media/DH8H81mXYAIqpj1.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DH8H81mXYAIqpj1.jpg",
+          "url": "https://t.co/C02G05tUvu",
+          "display_url": "pic.twitter.com/C02G05tUvu",
+          "expanded_url": "https://twitter.com/GitHubEducation/status/900447194884517888/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 630,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1200,
+              "h": 630,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 357,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 900447192258928642,
+          "id_str": "900447192258928642",
+          "indices": [
+            110,
+            133
+          ],
+          "media_url": "http://pbs.twimg.com/media/DH8H81mXYAIqpj1.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DH8H81mXYAIqpj1.jpg",
+          "url": "https://t.co/C02G05tUvu",
+          "display_url": "pic.twitter.com/C02G05tUvu",
+          "expanded_url": "https://twitter.com/GitHubEducation/status/900447194884517888/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 630,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 1200,
+              "h": 630,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 357,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://bufferapp.com\" rel=\"nofollow\">Buffer</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1943578656,
+      "id_str": "1943578656",
+      "name": "GitHub Education",
+      "screen_name": "GitHubEducation",
+      "location": "Earth",
+      "description": "Bringing GitHub to the classroom.",
+      "url": "https://t.co/y5qavZyNOb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/y5qavZyNOb",
+              "expanded_url": "https://education.github.com",
+              "display_url": "education.github.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": []
+        }
+      },
+      "protected": false,
+      "followers_count": 12839,
+      "friends_count": 47,
+      "listed_count": 234,
+      "created_at": "Mon Oct 07 09:51:28 +0000 2013",
+      "favourites_count": 1035,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 1452,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/378800000561692042/a26a14bdfa11b045632e66b05369bc48_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/378800000561692042/a26a14bdfa11b045632e66b05369bc48_normal.png",
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": false,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 76,
+    "favorite_count": 193,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  "is_quote_status": false,
+  "retweet_count": 76,
+  "favorite_count": 0,
+  "favorited": false,
+  "retweeted": false,
+  "possibly_sensitive": false,
+  "lang": "en"
+}
