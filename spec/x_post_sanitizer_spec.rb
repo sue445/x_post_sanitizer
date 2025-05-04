@@ -23,6 +23,7 @@ RSpec.describe XPostSanitizer do
 
         it { should eq expected }
         it { expect { subject }.not_to change { tweet["text"] } }
+        it { expect { subject }.not_to change { tweet["full_text"] } }
       end
     end
 
@@ -71,6 +72,7 @@ RSpec.describe XPostSanitizer do
 
       it { should eq expected }
       it { expect { subject }.not_to change { tweet["text"] } }
+      it { expect { subject }.not_to change { tweet["full_text"] } }
     end
   end
 
@@ -89,6 +91,7 @@ RSpec.describe XPostSanitizer do
 
       it { should eq expected }
       it { expect { subject }.not_to change { tweet["text"] } }
+      it { expect { subject }.not_to change { tweet["full_text"] } }
     end
   end
 
@@ -107,6 +110,7 @@ RSpec.describe XPostSanitizer do
 
       it { should eq expected }
       it { expect { subject }.not_to change { tweet["text"] } }
+      it { expect { subject }.not_to change { tweet["full_text"] } }
     end
   end
 end
