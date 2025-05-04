@@ -17,7 +17,14 @@ module XPostSanitizer
   #
   # @see https://developer.x.com/en/docs/x-api/v1/data-dictionary/object-model/tweet
   def self.sanitize_text(tweet, use_retweeted_tweet: true, expand_url: true, remove_media_url: true, unescape: true)
-    # TODO: Do after
+    # Original RT status exists in retweeted_status
+    tweet = tweet["retweeted_status"] if use_retweeted_tweet && tweet["retweeted_status"]
+
+    text = tweet_full_text(tweet)
+    text = expand_urls_in_text(tweet, text) if expand_url
+    text = remove_media_urls_in_tweet(tweet, text) if remove_media_url
+    text = CGI.unescapeHTML(text) if unescape
+    text
   end
 
   # @param tweet [Hash<String, Object>] Tweet object
