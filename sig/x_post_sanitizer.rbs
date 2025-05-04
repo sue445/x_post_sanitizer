@@ -4,5 +4,23 @@ module XPostSanitizer
   class Error < StandardError
   end
 
+  type tweet = Hash[String, untyped]
+
+  def self.sanitize_text: (
+    tweet tweet,
+    ?use_retweeted_tweet: bool,
+    ?expand_url: bool,
+    ?remove_media_url: bool,
+    ?unescape: bool
+  ) -> String
+
+  def self.expand_urls_in_text: (tweet tweet, String text) -> String
+
+  def self.tweet_full_text: (tweet tweet) -> String
+
+  def self.remove_media_urls_in_tweet: (tweet tweet, String text) -> String
+
+  def self.get_medias: (tweet tweet) -> Array[Hash[String, untyped]]
+
   # See the writing guide of rbs: https://github.com/ruby/rbs#guides
 end
