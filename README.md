@@ -1,28 +1,57 @@
 # XPostSanitizer
+Sanitize X Post (formerly Twitter Tweet)
 
-TODO: Delete this and the text below, and describe your gem
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/x_post_sanitizer`. To experiment with that code, run `bin/console` for an interactive prompt.
+[![test](https://github.com/sue445/x_post_sanitizer/actions/workflows/test.yml/badge.svg)](https://github.com/sue445/x_post_sanitizer/actions/workflows/test.yml)
 
 ## Installation
-
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
 Install the gem and add to the application's Gemfile by executing:
 
 ```bash
-bundle add UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+bundle add x_post_sanitizer
 ```
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
 ```bash
-gem install UPDATE_WITH_YOUR_GEM_NAME_IMMEDIATELY_AFTER_RELEASE_TO_RUBYGEMS_ORG
+gem install x_post_sanitizer
 ```
 
 ## Usage
+Use `XPostSanitizer.sanitize_text`
 
-TODO: Write usage instructions here
+e.g
+
+```ruby
+require "json"
+require "x_post_sanitizer"
+
+# https://x.com/github/status/866677968608927744
+tweet = JSON.parse(File.read("spec/support/fixtures/full_text_tweet1.json"))
+
+tweet["full_text"]
+#=> "Introducing GitHub Marketplace, a new place to browse and buy integrations using your GitHub account. https://t.co/mPTtAxnU5z https://t.co/Wz2mUql2lc"
+
+XPostSanitizer.sanitize_text(tweet)
+#=> "Introducing GitHub Marketplace, a new place to browse and buy integrations using your GitHub account. https://github.com/blog/2359-introducing-github-marketplace-and-more-tools-to-customize-your-workflow"
+```
+
+## Features
+* Expand urls in `text` or `full_text` (e.g. `t.co` url -> original url)
+* Remove media urls in `text` or `full_text`
+* Unescape special html characters in `text` or `full_text` (e.g. `(&gt; &lt;)` -> `(> <)`)
+
+All methods and options are followings
+
+https://sue445.github.io/x_post_sanitizer/XPostSanitizer.html
+
+## vs tweet_sanitizer
+This has the same features as [tweet_sanitizer](https://github.com/sue445/tweet_sanitizer) but with the following differences
+
+* tweet_sanitizer
+  * Requires https://github.com/sferik/twitter-ruby
+* x_post_sanitizer
+  * Requires only plain X API response. (`Hash` which parsed JSON string)
+  * No requires https://github.com/sferik/twitter-ruby
 
 ## Development
 
@@ -32,7 +61,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/x_post_sanitizer.
+Bug reports and pull requests are welcome on GitHub at https://github.com/sue445/x_post_sanitizer.
 
 ## License
 
