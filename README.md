@@ -1,6 +1,7 @@
 # XPostSanitizer
 Sanitize X Post (formerly Twitter Tweet)
 
+[![Gem Version](https://badge.fury.io/rb/x_post_sanitizer.svg)](https://badge.fury.io/rb/x_post_sanitizer)
 [![test](https://github.com/sue445/x_post_sanitizer/actions/workflows/test.yml/badge.svg)](https://github.com/sue445/x_post_sanitizer/actions/workflows/test.yml)
 
 ## Installation
