@@ -2,6 +2,7 @@
 
 require "x_post_sanitizer"
 require "json"
+require "rspec/parameterized"
 
 Dir["#{__dir__}/support/**/*.rb"].each { |f| require f }
 
