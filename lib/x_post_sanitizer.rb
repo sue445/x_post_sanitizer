@@ -46,6 +46,22 @@ module XPostSanitizer
   #
   # @see https://developer.x.com/en/docs/x-api/v1/tweets/post-and-engage/api-reference/get-statuses-show-id
   def self.remove_media_urls_in_status(status, text)
-    # TODO: Do after
+    medias = get_medias(status)
+
+    return text if medias.empty?
+
+    medias.each_with_object(text.dup) do |media, t|
+      t.gsub!(media["url"], "")
+      t.strip!
+    end
   end
+
+  # @param status [Hash] Response of `GET statuses/show/:id`
+  # @return [Array<Hash>]
+  # @see https://developer.x.com/en/docs/x-api/v1/tweets/post-and-engage/api-reference/get-statuses-show-id
+  def self.get_medias(status)
+    # TODO: Check extended_entities.media
+    status.dig("entities", "media") || []
+  end
+  private_class_method :get_medias
 end
