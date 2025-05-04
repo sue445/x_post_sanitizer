@@ -1,0 +1,589 @@
+{
+  "bookmark_count": 0,
+  "bookmarked": false,
+  "created_at": "Fri May 02 13:48:59 +0000 2025",
+  "conversation_id_str": "1918301698105459084",
+  "display_text_range": [
+    0,
+    85
+  ],
+  "entities": {
+    "hashtags": [
+      {
+        "indices": [
+          24,
+          41
+        ],
+        "text": "YuGiOhMASTERDUEL"
+      },
+      {
+        "indices": [
+          42,
+          54
+        ],
+        "text": "遊戯王マスターデュエル"
+      },
+      {
+        "indices": [
+          55,
+          70
+        ],
+        "text": "NintendoSwitch"
+      },
+      {
+        "indices": [
+          71,
+          85
+        ],
+        "text": "NSEasyConnect"
+      }
+    ],
+    "media": [
+      {
+        "display_url": "pic.x.com/nRivjiOxTJ",
+        "expanded_url": "https://x.com/sue445/status/1918301698105459084/photo/1",
+        "id_str": "1918301686663397379",
+        "indices": [
+          86,
+          109
+        ],
+        "media_key": "3_1918301686663397379",
+        "media_url_https": "https://pbs.twimg.com/media/Gp8tOG2awAMX-6U.jpg",
+        "type": "photo",
+        "url": "https://t.co/nRivjiOxTJ",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 753,
+                "y": 152,
+                "h": 60,
+                "w": 60
+              },
+              {
+                "x": 448,
+                "y": 341,
+                "h": 61,
+                "w": 61
+              },
+              {
+                "x": 343,
+                "y": 337,
+                "h": 66,
+                "w": 66
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 705,
+                "y": 142,
+                "h": 56,
+                "w": 56
+              },
+              {
+                "x": 420,
+                "y": 319,
+                "h": 57,
+                "w": 57
+              },
+              {
+                "x": 321,
+                "y": 315,
+                "h": 61,
+                "w": 61
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 400,
+                "y": 80,
+                "h": 31,
+                "w": 31
+              },
+              {
+                "x": 238,
+                "y": 181,
+                "h": 32,
+                "w": 32
+              },
+              {
+                "x": 182,
+                "y": 179,
+                "h": 35,
+                "w": 35
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 753,
+                "y": 152,
+                "h": 60,
+                "w": 60
+              },
+              {
+                "x": 448,
+                "y": 341,
+                "h": 61,
+                "w": 61
+              },
+              {
+                "x": 343,
+                "y": 337,
+                "h": 66,
+                "w": 66
+              }
+            ]
+          }
+        },
+        "sizes": {
+          "large": {
+            "h": 720,
+            "w": 1280,
+            "resize": "fit"
+          },
+          "medium": {
+            "h": 675,
+            "w": 1200,
+            "resize": "fit"
+          },
+          "small": {
+            "h": 383,
+            "w": 680,
+            "resize": "fit"
+          },
+          "thumb": {
+            "h": 150,
+            "w": 150,
+            "resize": "crop"
+          }
+        },
+        "original_info": {
+          "height": 720,
+          "width": 1280,
+          "focus_rects": [
+            {
+              "x": 0,
+              "y": 3,
+              "w": 1280,
+              "h": 717
+            },
+            {
+              "x": 560,
+              "y": 0,
+              "w": 720,
+              "h": 720
+            },
+            {
+              "x": 648,
+              "y": 0,
+              "w": 632,
+              "h": 720
+            },
+            {
+              "x": 876,
+              "y": 0,
+              "w": 360,
+              "h": 720
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 720
+            }
+          ]
+        },
+        "media_results": {
+          "result": {
+            "media_key": "3_1918301686663397379"
+          }
+        }
+      },
+      {
+        "display_url": "pic.x.com/nRivjiOxTJ",
+        "expanded_url": "https://x.com/sue445/status/1918301698105459084/photo/1",
+        "id_str": "1918301692497674241",
+        "indices": [
+          86,
+          109
+        ],
+        "media_key": "3_1918301692497674241",
+        "media_url_https": "https://pbs.twimg.com/media/Gp8tOclawAEigj8.jpg",
+        "type": "photo",
+        "url": "https://t.co/nRivjiOxTJ",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "features": {
+          "large": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          }
+        },
+        "sizes": {
+          "large": {
+            "h": 720,
+            "w": 1280,
+            "resize": "fit"
+          },
+          "medium": {
+            "h": 675,
+            "w": 1200,
+            "resize": "fit"
+          },
+          "small": {
+            "h": 383,
+            "w": 680,
+            "resize": "fit"
+          },
+          "thumb": {
+            "h": 150,
+            "w": 150,
+            "resize": "crop"
+          }
+        },
+        "original_info": {
+          "height": 720,
+          "width": 1280,
+          "focus_rects": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 717
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 720,
+              "h": 720
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 632,
+              "h": 720
+            },
+            {
+              "x": 108,
+              "y": 0,
+              "w": 360,
+              "h": 720
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 720
+            }
+          ]
+        },
+        "media_results": {
+          "result": {
+            "media_key": "3_1918301692497674241"
+          }
+        }
+      }
+    ],
+    "symbols": [],
+    "timestamps": [],
+    "urls": [],
+    "user_mentions": []
+  },
+  "extended_entities": {
+    "media": [
+      {
+        "display_url": "pic.x.com/nRivjiOxTJ",
+        "expanded_url": "https://x.com/sue445/status/1918301698105459084/photo/1",
+        "id_str": "1918301686663397379",
+        "indices": [
+          86,
+          109
+        ],
+        "media_key": "3_1918301686663397379",
+        "media_url_https": "https://pbs.twimg.com/media/Gp8tOG2awAMX-6U.jpg",
+        "type": "photo",
+        "url": "https://t.co/nRivjiOxTJ",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "features": {
+          "large": {
+            "faces": [
+              {
+                "x": 753,
+                "y": 152,
+                "h": 60,
+                "w": 60
+              },
+              {
+                "x": 448,
+                "y": 341,
+                "h": 61,
+                "w": 61
+              },
+              {
+                "x": 343,
+                "y": 337,
+                "h": 66,
+                "w": 66
+              }
+            ]
+          },
+          "medium": {
+            "faces": [
+              {
+                "x": 705,
+                "y": 142,
+                "h": 56,
+                "w": 56
+              },
+              {
+                "x": 420,
+                "y": 319,
+                "h": 57,
+                "w": 57
+              },
+              {
+                "x": 321,
+                "y": 315,
+                "h": 61,
+                "w": 61
+              }
+            ]
+          },
+          "small": {
+            "faces": [
+              {
+                "x": 400,
+                "y": 80,
+                "h": 31,
+                "w": 31
+              },
+              {
+                "x": 238,
+                "y": 181,
+                "h": 32,
+                "w": 32
+              },
+              {
+                "x": 182,
+                "y": 179,
+                "h": 35,
+                "w": 35
+              }
+            ]
+          },
+          "orig": {
+            "faces": [
+              {
+                "x": 753,
+                "y": 152,
+                "h": 60,
+                "w": 60
+              },
+              {
+                "x": 448,
+                "y": 341,
+                "h": 61,
+                "w": 61
+              },
+              {
+                "x": 343,
+                "y": 337,
+                "h": 66,
+                "w": 66
+              }
+            ]
+          }
+        },
+        "sizes": {
+          "large": {
+            "h": 720,
+            "w": 1280,
+            "resize": "fit"
+          },
+          "medium": {
+            "h": 675,
+            "w": 1200,
+            "resize": "fit"
+          },
+          "small": {
+            "h": 383,
+            "w": 680,
+            "resize": "fit"
+          },
+          "thumb": {
+            "h": 150,
+            "w": 150,
+            "resize": "crop"
+          }
+        },
+        "original_info": {
+          "height": 720,
+          "width": 1280,
+          "focus_rects": [
+            {
+              "x": 0,
+              "y": 3,
+              "w": 1280,
+              "h": 717
+            },
+            {
+              "x": 560,
+              "y": 0,
+              "w": 720,
+              "h": 720
+            },
+            {
+              "x": 648,
+              "y": 0,
+              "w": 632,
+              "h": 720
+            },
+            {
+              "x": 876,
+              "y": 0,
+              "w": 360,
+              "h": 720
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 720
+            }
+          ]
+        },
+        "media_results": {
+          "result": {
+            "media_key": "3_1918301686663397379"
+          }
+        }
+      },
+      {
+        "display_url": "pic.x.com/nRivjiOxTJ",
+        "expanded_url": "https://x.com/sue445/status/1918301698105459084/photo/1",
+        "id_str": "1918301692497674241",
+        "indices": [
+          86,
+          109
+        ],
+        "media_key": "3_1918301692497674241",
+        "media_url_https": "https://pbs.twimg.com/media/Gp8tOclawAEigj8.jpg",
+        "type": "photo",
+        "url": "https://t.co/nRivjiOxTJ",
+        "ext_media_availability": {
+          "status": "Available"
+        },
+        "features": {
+          "large": {
+            "faces": []
+          },
+          "medium": {
+            "faces": []
+          },
+          "small": {
+            "faces": []
+          },
+          "orig": {
+            "faces": []
+          }
+        },
+        "sizes": {
+          "large": {
+            "h": 720,
+            "w": 1280,
+            "resize": "fit"
+          },
+          "medium": {
+            "h": 675,
+            "w": 1200,
+            "resize": "fit"
+          },
+          "small": {
+            "h": 383,
+            "w": 680,
+            "resize": "fit"
+          },
+          "thumb": {
+            "h": 150,
+            "w": 150,
+            "resize": "crop"
+          }
+        },
+        "original_info": {
+          "height": 720,
+          "width": 1280,
+          "focus_rects": [
+            {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 717
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 720,
+              "h": 720
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 632,
+              "h": 720
+            },
+            {
+              "x": 108,
+              "y": 0,
+              "w": 360,
+              "h": 720
+            },
+            {
+              "x": 0,
+              "y": 0,
+              "w": 1280,
+              "h": 720
+            }
+          ]
+        },
+        "media_results": {
+          "result": {
+            "media_key": "3_1918301692497674241"
+          }
+        }
+      }
+    ]
+  },
+  "favorite_count": 2,
+  "favorited": false,
+  "full_text": "N/Rレアリティトライアル、メガリスで完走した #YuGiOhMASTERDUEL #遊戯王マスターデュエル #NintendoSwitch #NSEasyConnect https://t.co/nRivjiOxTJ",
+  "is_quote_status": false,
+  "lang": "ja",
+  "possibly_sensitive": false,
+  "possibly_sensitive_editable": true,
+  "quote_count": 0,
+  "reply_count": 0,
+  "retweet_count": 0,
+  "retweeted": false,
+  "user_id_str": "14540215",
+  "id_str": "1918301698105459084"
+}
