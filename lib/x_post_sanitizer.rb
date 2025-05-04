@@ -36,7 +36,7 @@ module XPostSanitizer
   #
   # @see https://developer.x.com/en/docs/x-api/v1/tweets/post-and-engage/api-reference/get-statuses-show-id
   def self.status_full_text(status)
-    # TODO: Do after
+    status["full_text"] || status["text"]
   end
 
   # @param status [Hash] Response of `GET statuses/show/:id`
