@@ -7,27 +7,27 @@ module XPostSanitizer
 
   # Sanitize X Post (formerly Twitter Tweet)
   #
-  # @param status [Hash] Response of `GET statuses/show/:id`
-  # @param use_retweeted_tweet [Boolean] Whether use original retweeted tweet if exists
+  # @param tweet [Hash<String, Object>] Tweet object
+  # @param use_retweeted_tweet [Boolean] Use original retweeted tweet if exists
   # @param expand_url          [Boolean] Whether expand url in tweet (e.g. `t.co` url -> original url)
   # @param remove_media_url    [Boolean] Whether remove media url in tweet
   # @param unescape            [Boolean] Whether unescape in tweet (e.g. `(&gt; &lt;)` -> `(> <)`)
   #
-  # @return [String] Sanitized text in status
+  # @return [String] Sanitized text in tweet
   #
-  # @see https://developer.x.com/en/docs/x-api/v1/tweets/post-and-engage/api-reference/get-statuses-show-id
-  def self.sanitize_text(status, use_retweeted_tweet: true, expand_url: true, remove_media_url: true, unescape: true)
+  # @see https://developer.x.com/en/docs/x-api/v1/data-dictionary/object-model/tweet
+  def self.sanitize_text(tweet, use_retweeted_tweet: true, expand_url: true, remove_media_url: true, unescape: true)
     # TODO: Do after
   end
 
-  # @param status [Hash] Response of `GET statuses/show/:id`
+  # @param tweet [Hash<String, Object>] Tweet object
   # @param text [String]
   #
   # @return [String]
   #
-  # @see https://developer.x.com/en/docs/x-api/v1/tweets/post-and-engage/api-reference/get-statuses-show-id
-  def self.expand_urls_in_text(status, text)
-    urls = status.dig("entities", "urls")
+  # @see https://developer.x.com/en/docs/x-api/v1/data-dictionary/object-model/tweet
+  def self.expand_urls_in_text(tweet, text)
+    urls = tweet.dig("entities", "urls")
 
     return text unless urls
 
@@ -38,23 +38,23 @@ module XPostSanitizer
     end
   end
 
-  # @param status [Hash] Response of `GET statuses/show/:id`
+  # @param tweet [Hash<String, Object>] Tweet object
   #
   # @return [String] `full_text` attribute if exist
   #
-  # @see https://developer.x.com/en/docs/x-api/v1/tweets/post-and-engage/api-reference/get-statuses-show-id
-  def self.status_full_text(status)
-    status["full_text"] || status["text"]
+  # @see https://developer.x.com/en/docs/x-api/v1/data-dictionary/object-model/tweet
+  def self.tweet_full_text(tweet)
+    tweet["full_text"] || tweet["text"]
   end
 
-  # @param status [Hash] Response of `GET statuses/show/:id`
+  # @param tweet [Hash<String, Object>] Tweet object
   # @param text [String]
   #
   # @return [String]
   #
-  # @see https://developer.x.com/en/docs/x-api/v1/tweets/post-and-engage/api-reference/get-statuses-show-id
-  def self.remove_media_urls_in_status(status, text)
-    medias = get_medias(status)
+  # @see https://developer.x.com/en/docs/x-api/v1/data-dictionary/object-model/tweet
+  def self.remove_media_urls_in_tweet(tweet, text)
+    medias = get_medias(tweet)
 
     return text if medias.empty?
 
@@ -64,12 +64,14 @@ module XPostSanitizer
     end
   end
 
-  # @param status [Hash] Response of `GET statuses/show/:id`
+  # @param tweet [Hash<String, Object>] Tweet object
+  #
   # @return [Array<Hash>]
-  # @see https://developer.x.com/en/docs/x-api/v1/tweets/post-and-engage/api-reference/get-statuses-show-id
-  def self.get_medias(status)
+  #
+  # @see https://developer.x.com/en/docs/x-api/v1/data-dictionary/object-model/tweet
+  def self.get_medias(tweet)
     # TODO: Check extended_entities.media
-    status.dig("entities", "media") || []
+    tweet.dig("entities", "media") || []
   end
   private_class_method :get_medias
 end
