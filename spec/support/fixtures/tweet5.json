@@ -1,0 +1,20 @@
+{
+  "id": 875480815785738240,
+  "text": "IPv6は全然勉強が足りてなくて。\n他はともかく、ひとまずhttps://t.co/f6ssrUsRYYだけはIPv6リアーチャブルにしてみようかしら。",
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/f6ssrUsRYY",
+        "expanded_url": "http://mstdn.b-shock.org",
+        "display_url": "mstdn.b-shock.org",
+        "indices": [
+          29,
+          52
+        ]
+      }
+    ]
+  }
+}

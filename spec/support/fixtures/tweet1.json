@@ -1,0 +1,17 @@
+{
+  "id": 866636479061147648,
+  "text": "“GitHubのリポジトリをDprecatedにするスクリプト | Web Scratch” https://t.co/vG7cvDAMEb",
+  "entities": {
+    "urls": [
+      {
+        "url": "https://t.co/vG7cvDAMEb",
+        "expanded_url": "http://htn.to/RC5eJf",
+        "display_url": "htn.to/RC5eJf",
+        "indices": [
+          47,
+          70
+        ]
+      }
+    ]
+  }
+}

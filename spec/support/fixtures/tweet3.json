@@ -1,0 +1,20 @@
+{
+  "id": 875237065469771776,
+  "text": "テスト https://t.co/jJ90XluMso &lt;&gt;&lt;&gt;",
+  "entities": {
+    "hashtags": [],
+    "symbols": [],
+    "user_mentions": [],
+    "urls": [
+      {
+        "url": "https://t.co/jJ90XluMso",
+        "expanded_url": "https://google.com/",
+        "display_url": "google.com",
+        "indices": [
+          4,
+          27
+        ]
+      }
+    ]
+  }
+}
