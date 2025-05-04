@@ -96,17 +96,19 @@ RSpec.describe XPostSanitizer do
   end
 
   describe ".remove_media_urls_in_tweet" do
-    subject { XPostSanitizer.remove_media_urls_in_tweet(tweet, tweet["text"]) }
+    subject { XPostSanitizer.remove_media_urls_in_tweet(tweet, text) }
 
     using RSpec::Parameterized::TableSyntax
 
     where(:fixture_name, :expected) do
-      "tweet2.json" | "RT @SazaeSurrealism: #sazae #sazaesan"
-      "tweet1.json" | "“GitHubのリポジトリをDprecatedにするスクリプト | Web Scratch” https://t.co/vG7cvDAMEb"
+      "tweet2.json"                             | "RT @SazaeSurrealism: #sazae #sazaesan"
+      "tweet1.json"                             | "“GitHubのリポジトリをDprecatedにするスクリプト | Web Scratch” https://t.co/vG7cvDAMEb"
+      "tweet_with_extended_entities_media.json" | "N/Rレアリティトライアル、メガリスで完走した #YuGiOhMASTERDUEL #遊戯王マスターデュエル #NintendoSwitch #NSEasyConnect"
     end
 
     with_them do
       let(:tweet) { read_tweet_fixture(fixture_name) }
+      let(:text) { XPostSanitizer.tweet_full_text(tweet) }
 
       it { should eq expected }
       it { expect { subject }.not_to change { tweet["text"] } }

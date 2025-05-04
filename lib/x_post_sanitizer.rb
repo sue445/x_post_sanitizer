@@ -77,7 +77,9 @@ module XPostSanitizer
   #
   # @see https://developer.x.com/en/docs/x-api/v1/data-dictionary/object-model/tweet
   def self.get_medias(tweet)
-    # TODO: Check extended_entities.media
+    extended_entities_medias = tweet.dig("extended_entities", "media")
+    return extended_entities_medias if extended_entities_medias
+
     tweet.dig("entities", "media") || []
   end
   private_class_method :get_medias
