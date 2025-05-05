@@ -49,10 +49,10 @@ https://sue445.github.io/x_post_sanitizer/XPostSanitizer.html
 This has the same features as [tweet_sanitizer](https://github.com/sue445/tweet_sanitizer) but with the following differences
 
 * tweet_sanitizer
-  * Requires https://github.com/sferik/twitter-ruby
+    * Requires https://github.com/sferik/twitter-ruby
 * x_post_sanitizer
-  * Requires only plain X API response. (`Hash` which parsed JSON string)
-  * No requires https://github.com/sferik/twitter-ruby
+    * Requires only plain X API response. (`Hash` which parsed JSON string)
+    * No requires https://github.com/sferik/twitter-ruby
 
 ## Development
 
