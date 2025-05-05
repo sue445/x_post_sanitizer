@@ -73,7 +73,7 @@ module XPostSanitizer
 
   # @param tweet [Hash<String, Object>] Tweet object
   #
-  # @return [Array<Hash>]
+  # @return [Array<Hash<String, Object>>]
   #
   # @see https://developer.x.com/en/docs/x-api/v1/data-dictionary/object-model/tweet
   def self.get_medias(tweet)
