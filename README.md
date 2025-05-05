@@ -20,7 +20,7 @@ gem install x_post_sanitizer
 ## Usage
 Use `XPostSanitizer.sanitize_text`
 
-e.g
+e.g.
 
 ```ruby
 require "json"
@@ -45,7 +45,7 @@ All methods and options are followings
 
 https://sue445.github.io/x_post_sanitizer/XPostSanitizer.html
 
-## vs tweet_sanitizer
+## vs. tweet_sanitizer
 This has the same features as [tweet_sanitizer](https://github.com/sue445/tweet_sanitizer) but with the following differences
 
 * tweet_sanitizer
