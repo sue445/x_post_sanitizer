@@ -6,7 +6,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: eb6867fdb70e82e3aac6b51623ed1b6760c3c072
+    revision: 1e026936df951c269b64b7cba278132b0af42828
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: binding_of_caller
@@ -14,14 +14,10 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: eb6867fdb70e82e3aac6b51623ed1b6760c3c072
+    revision: 1e026936df951c269b64b7cba278132b0af42828
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: cgi
-  version: '0'
-  source:
-    type: stdlib
-- name: dbm
   version: '0'
   source:
     type: stdlib
@@ -30,7 +26,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: eb6867fdb70e82e3aac6b51623ed1b6760c3c072
+    revision: 1e026936df951c269b64b7cba278132b0af42828
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: fileutils
@@ -46,7 +42,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: eb6867fdb70e82e3aac6b51623ed1b6760c3c072
+    revision: 1e026936df951c269b64b7cba278132b0af42828
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: pp
@@ -61,20 +57,12 @@ gems:
   version: 1.4.0
   source:
     type: rubygems
-- name: pstore
-  version: '0'
-  source:
-    type: stdlib
-- name: psych
-  version: '0'
-  source:
-    type: stdlib
 - name: rake
   version: '13.0'
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: eb6867fdb70e82e3aac6b51623ed1b6760c3c072
+    revision: 1e026936df951c269b64b7cba278132b0af42828
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: rdoc
