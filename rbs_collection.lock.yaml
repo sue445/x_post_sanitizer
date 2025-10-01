@@ -6,7 +6,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 14112a82013860a7d2e5246b4c4f36fbb8c349dc
+    revision: e2034fcc1cfb92bdb3099354c4ade15722d63138
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: binding_of_caller
@@ -14,7 +14,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 14112a82013860a7d2e5246b4c4f36fbb8c349dc
+    revision: e2034fcc1cfb92bdb3099354c4ade15722d63138
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: cgi
@@ -26,7 +26,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 14112a82013860a7d2e5246b4c4f36fbb8c349dc
+    revision: e2034fcc1cfb92bdb3099354c4ade15722d63138
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: fileutils
@@ -42,7 +42,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 14112a82013860a7d2e5246b4c4f36fbb8c349dc
+    revision: e2034fcc1cfb92bdb3099354c4ade15722d63138
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: pp
@@ -54,7 +54,7 @@ gems:
   source:
     type: stdlib
 - name: prism
-  version: 1.4.0
+  version: 1.5.1
   source:
     type: rubygems
 - name: rake
@@ -62,7 +62,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: 14112a82013860a7d2e5246b4c4f36fbb8c349dc
+    revision: e2034fcc1cfb92bdb3099354c4ade15722d63138
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: rdoc
