@@ -1,0 +1,3 @@
+class CGI
+  def self.unescapeHTML: (String string) -> String
+end
