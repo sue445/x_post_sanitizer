@@ -1,3 +1,8 @@
+# This patch can be removed at rbs 3.10+
+# c.f.
+# * https://github.com/ruby/gem_rbs_collection/pull/952
+# * https://github.com/ruby/rbs/pull/2728
+# * https://github.com/ruby/rbs/issues/2736
 class CGI
   def self.unescapeHTML: (String string) -> String
 end
