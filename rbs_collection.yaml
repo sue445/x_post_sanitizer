@@ -14,7 +14,8 @@ sources:
 path: .gem_rbs_collection
 
 gems:
-  - name: cgi
+  - name: cgi-escape
+    type: stdlib
   - name: rbs
     ignore: true
   - name: steep
