@@ -35,7 +35,7 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "irb"
   spec.add_development_dependency "rake", "~> 13.0"
-  spec.add_development_dependency "rbs"
+  spec.add_development_dependency "rbs", ">= 3.10.0.pre.1"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rspec-parameterized"
   spec.add_development_dependency "steep"
