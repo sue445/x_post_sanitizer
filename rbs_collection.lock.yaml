@@ -6,7 +6,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: binding_of_caller
@@ -14,7 +14,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: cgi-escape
@@ -26,7 +26,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: fileutils
@@ -42,7 +42,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: pp
@@ -62,7 +62,7 @@ gems:
   source:
     type: git
     name: ruby/gem_rbs_collection
-    revision: ecdc16fbc015cc667476120bdc2bd20735882f3a
+    revision: d7090c40bcea7011ad2ebaaa46bdd7d7ac3136a7
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
 - name: rdoc
@@ -70,7 +70,7 @@ gems:
   source:
     type: stdlib
 - name: rspec-parameterized-core
-  version: 2.0.1
+  version: 2.0.2
   source:
     type: rubygems
 - name: rspec-parameterized-table_syntax
